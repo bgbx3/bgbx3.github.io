@@ -1,0 +1,13 @@
+[core]
+	repositoryformatversion = 0
+	filemode = true
+	bare = false
+	logallrefupdates = true
+	ignorecase = true
+	precomposeunicode = false
+[remote "Mountain_King"]
+	url = https://marcodedo@bitbucket.org/marcodedo/mountain-king.git
+	fetch = +refs/heads/*:refs/remotes/Mountain_King/*
+[branch "master"]
+	remote = Mountain_King
+	merge = refs/heads/master
